@@ -28,11 +28,8 @@ export default function Hero() {
             <div className="relative w-64 h-64 lg:w-80 lg:h-80">
               <div className="absolute inset-0 bg-gradient-to-l from-[#00bcd4] to-[#0f3a7d] rounded-3xl transform rotate-6"></div>
               <div className="absolute inset-0 bg-gradient-to-l from-[#0f3a7d] to-[#00bcd4] rounded-3xl transform -rotate-6 opacity-50"></div>
-              <div className="relative w-full h-full bg-gray-300 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center">
-                <div className="text-center">
-                  <i className="fas fa-user text-6xl text-gray-400 mb-4"></i>
-                  <p className="text-gray-500 font-medium">صورة شخصية</p>
-                </div>
+              <div className="relative w-full h-full bg-white rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center">
+                <img src="/avatar-safaa.png" alt="صفاء البكاري" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
